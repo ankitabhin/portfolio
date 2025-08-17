@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Experience • Ankita Bhingare</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="dot"></span> Ankita Bhingare</a>
+      <button class="mobile-toggle">☰</button>
+      <div class="menu">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="skills.html">Skills</a><a href="projects.html">Projects</a>
+        <a class="active" href="experience.html">Experience</a><a href="certificates.html">Certificates</a>
+        <a href="contact.html">Contact</a><a class="btn" href="assets/AnkitaBhingare_Resume.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="section container reveal">
+    <div class="kicker">Professional Journey</div>
+    <h1 class="h2">Experience</h1>
+  </header>
+
+  <section class="section container grid">
+    <div class="card reveal">
+      <h3>Web Development Intern — Internship Studio <span class="muted">May 2025 – Present</span></h3>
+      <ul class="muted" style="margin-left:18px">
+        <li>Building responsive, SEO-friendly websites using HTML, CSS, JavaScript, and PHP.</li>
+        <li>Collaborating with mentors on frontend/backend integration and best practices.</li>
+      </ul>
+    </div>
+    <div class="card reveal">
+      <h3>Freelance Web Developer <span class="muted">Jan 2025 – Present</span></h3>
+      <ul class="muted" style="margin-left:18px">
+        <li>Developed portfolio & business websites for local photographers and makeup artists.</li>
+        <li>Integrated WhatsApp booking links and Instagram feeds to improve engagement.</li>
+        <li>Implemented animations, sliders, and responsive layouts for great UX.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">© <span id="year"></span> Ankita Yuvraj Bhingare</div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

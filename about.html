@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About • Ankita Bhingare</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="dot"></span> Ankita Bhingare</a>
+      <button class="mobile-toggle">☰</button>
+      <div class="menu">
+        <a href="index.html">Home</a><a class="active" href="about.html">About</a>
+        <a href="skills.html">Skills</a><a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a><a href="certificates.html">Certificates</a>
+        <a href="contact.html">Contact</a><a class="btn" href="assets/AnkitaBhingare_Resume.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="section container reveal">
+    <div class="kicker">About Me</div>
+    <h1 class="h2">Curious developer focused on clean UX and performant PHP backends.</h1>
+    <p class="muted">I love building modern, mobile-first websites with subtle animations and smooth flows.</p>
+  </header>
+
+  <section class="section container grid edu-grid">
+    <div class="card reveal">
+      <div class="kicker">Education</div>
+      <h3>MSc (Computer Science) — <span class="muted">Pursuing</span></h3>
+      <p>Suryadatta College of Management, Information Research & Technology, Bavdhan.</p>
+    </div>
+    <div class="card reveal">
+      <h3>BSc (Computer Science) — <span class="muted">8.81 CGPA (2024)</span></h3>
+      <p>Sharadabai Pawar Mahila Mahavidyalaya, Shardanagar, Baramati.</p>
+    </div>
+    <div class="card reveal">
+      <h3>HSC — <span class="muted">86.33% (2021)</span></h3>
+      <p>Jijamata Kanya Prashala, Akluj.</p>
+    </div>
+    <div class="card reveal">
+      <h3>SSC — <span class="muted">82.40% (2019)</span></h3>
+      <p>Madhyamik Vidyalaya, Nandore.</p>
+    </div>
+  </section>
+
+  <section class="section container grid" style="grid-template-columns:1fr 1fr">
+    <div class="card reveal">
+      <div class="kicker">Personal</div>
+      <p><strong>Birth Date:</strong> 1 June 2002</p>
+      <p><strong>Location:</strong> Pune (Permanent Address: A/p- Nandore, Tal- Pandharpur, Dist- Solapur)</p>
+    </div>
+    <div class="card reveal">
+      <div class="kicker">What I’m Looking For</div>
+      <p>Opportunities to work on challenging projects that enhance my technical skills and broaden my exposure.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">© <span id="year"></span> Ankita Yuvraj Bhingare • <a href="mailto:bhingareankita48@gmail.com" style="color:inherit">bhingareankita48@gmail.com</a></div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
